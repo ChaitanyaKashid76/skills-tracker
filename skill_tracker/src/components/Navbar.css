@@ -1,0 +1,12 @@
+/* Custom hover effect */
+.custom-hover {
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+.custom-hover:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: 1s;
+}

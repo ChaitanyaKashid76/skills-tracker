@@ -1,0 +1,187 @@
+ .profile-card{
+     border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top:20px;
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: rgb(240, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out; 
+}
+.profile-card:hover{
+    transform: scale(1.03);
+    box-shadow: rgba(137, 220, 237, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.skills-section{
+    background-color:#e6ffff;
+    width: 90%;
+ 
+ 
+}
+.skills-section h3{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-item {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-item strong {
+  font-size: 18px;
+  color: #333;
+}
+
+.skill-item p {
+  margin: 4px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.add-skill-btn{
+     margin-top: 8px;
+  padding: 6px 10px;
+  background: #6a6a6a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-skill-btn:hover {
+  background: #00e636;
+  border-radius: 30px;
+}
+
+/*  */
+.overall-chart {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.skills-pie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.skill-pie {
+  text-align: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.skill-pie h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/*  */
+
+
+.update-btn{
+  margin-top: 8px;
+  padding: 6px 10px;
+  background: #e3ff56;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.update-btn:hover{
+  background-color: #88ffa4;
+  transform: scale(1.03);
+  box-shadow: rgba(137, 220, 237, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+
+}
+.delete-btn {
+  margin-top: 8px;
+  padding: 6px 10px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #e60000;
+}
+/* Edit Skill Section */
+.edit-skill-section {
+margin-top: 20px;
+padding: 15px;
+background: #f9f9f9;
+border: 2px solid #ddd;
+border-radius: 8px;
+box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.edit-skill-section h3 {
+margin-bottom: 15px;
+color: #333;
+}
+
+.edit-skill-section input,select {
+width: 100%;
+padding: 10px;
+margin-bottom: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+transition: border 0.3s ease;
+}
+
+.edit-skill-section input,select:focus {
+border-color: #4CAF50;
+outline: none;
+}
+
+.edit-skill-section button {
+padding: 10px 16px;
+border: none;
+border-radius: 6px;
+margin-right: 8px;
+font-size: 14px;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+.edit-skill-section .save-btn {
+background-color: #4CAF50;
+color: white;
+}
+
+.edit-skill-section .save-btn:hover {
+background-color: #45a049;
+}
+
+.edit-skill-section .cancel-btn {
+background-color: #f44336;
+color: white;
+}
+
+.edit-skill-section .cancel-btn:hover {
+background-color: #d32f2f;
+}
